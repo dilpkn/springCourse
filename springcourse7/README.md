@@ -5,3 +5,7 @@
 <img width="1408" height="1079" alt="image" src="https://github.com/user-attachments/assets/8054de7a-681c-48f4-a80f-8f5fad3635b9" />
 
 <img width="1422" height="914" alt="image" src="https://github.com/user-attachments/assets/0699ca44-afde-4fad-a9da-6a8146b3d6fd" />
+
+в xml файле прописываем путь к папке, в которой спринг будет искать классы с анотацией @Component
+**<context:component-scan base-package="org.example"/>
+**
