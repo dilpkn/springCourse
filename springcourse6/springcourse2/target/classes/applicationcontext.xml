@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+<context:property-placeholder location="classpath:musicPlayer.properties"/>
+
+    <bean id="classicBean"
+          class="org.example.ClassicalMusic"
+          factory-method="getClassicalMusic"
+          init-method = "doMyInit"
+          destroy-method = "doMyDestroy">
+    </bean>
+
+    <bean id="rockBean"
+          class="org.example.RockMusic">
+    </bean>
+    <bean id="rapBean"
+          class="org.example.RapMusic">
+    </bean>
+
+<!--    <bean id = "musicPlayer"-->
+<!--          class  = "org.example.MusicPlayer"-->
+<!--          scope = "prototype">-->
+<!--        <property name = "musicList">-->
+<!--                <list>-->
+<!--                    <ref bean= "classicBean"/>-->
+<!--                    <ref bean= "rockBean"/>-->
+<!--                    <ref bean= "rapBean"/>-->
+<!--                </list>-->
+<!--        </property>-->
+<!--&lt;!&ndash;                    ищет setMusic&ndash;&gt;-->
+<!--        <property name="name" value="${musicPlayer.name}"/>-->
+<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
+<!--    </bean>-->
+</beans>
