@@ -17,6 +17,8 @@
 
 #### в форме в xml файле добавляем строку ч текстом об ошибках
 <img width="1120" height="502" alt="image" src="https://github.com/user-attachments/assets/ef05438d-e750-4b40-b08e-de87539b2231" />
+
 **th:if = "${#fields.hasErrors('email')}** ----> если есть ошибка в емеил, то выводит ошибки из аннотаций в Person ----> **th:errors ="*{email}"**
+
 ```    <div style="color: red" th:if = "${#fields.hasErrors('email')}" th:errors ="*{email}">Email error</div>
 ```
