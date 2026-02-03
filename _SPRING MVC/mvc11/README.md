@@ -20,6 +20,7 @@
 
 **th:if = "${#fields.hasErrors('email')}** ----> если есть ошибка в емеил, то выводит ошибки из аннотаций в Person ----> **th:errors ="*{email}"**
 
-```    <div style="color: red" th:if = "${#fields.hasErrors('email')}" th:errors ="*{email}">Email error</div>
+```
+   <div style="color: red" th:if = "${#fields.hasErrors('email')}" th:errors ="*{email}">Email error</div>
 ```
 <img width="420" height="268" alt="image" src="https://github.com/user-attachments/assets/eb9bb647-0af9-4303-8c47-a9cc0077fa8e" />
