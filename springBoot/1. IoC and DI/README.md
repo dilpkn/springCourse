@@ -1,5 +1,5 @@
-<img width="1340" height="749" alt="image" src="https://github.com/user-attachments/assets/425f0a28-cf17-4ca4-9f0b-e6619b41f13e" /># IOC. Способы создания бинов
-
+# IOC
+## Способы создания бинов
 ### 1.
 <img width="1667" height="784" alt="image" src="https://github.com/user-attachments/assets/b5012c32-a035-4739-95ac-4860737ec563" />
 
@@ -17,8 +17,6 @@
 # DI
 
 <img width="1705" height="734" alt="image" src="https://github.com/user-attachments/assets/16d27f8c-3831-4cba-a823-26695eb67360" />
-
-## IOC. Способы создания бинов
 
 <img width="1476" height="94" alt="image" src="https://github.com/user-attachments/assets/37a0facc-6df7-4331-b432-e2df7d8ab474" />
 
