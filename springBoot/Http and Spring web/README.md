@@ -34,3 +34,5 @@
 
 <img width="1796" height="905" alt="image" src="https://github.com/user-attachments/assets/5d7a3e83-0eb7-46db-96da-f1ef69eb198e" />
 
+# Docker
+**docker run --name my-postgres -e POSTGRES_PASSWORD=root -p 5432:5432 -d postgres** - подтягивает постгрес
